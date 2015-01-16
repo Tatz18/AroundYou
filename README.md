@@ -1,4 +1,4 @@
-findFood
+AroundYou
 ========
 
-searches food points nearby using google maps api
+searches places using google maps api
