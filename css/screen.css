@@ -9,7 +9,7 @@ q,blockquote{quotes:none;}
 q:before,q:after,blockquote:before,blockquote:after{content:none;}
 a img{border:none;}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block;}
-body{background:#fff;color:#CFCF7C;font:1em ,sans-serif;letter-spacing:0;margin:0;padding:0;}
+body{background:#fff;color:#CFCF7C;font:1em ,'Roboto';letter-spacing:0;margin:0;padding:0;}
 .grid.selectGrid.main{font-size:2rem;padding-top:2rem;position:relative;z-index:4;margin:0 auto;}
 .loading{background:rgba(255,255,255,0.5);color:#000;display:none;font-size:4rem;height:100%;padding-top:17rem;position:absolute;text-align:center;top:0;width:100%;z-index:2000;}
 .locator .locationInfo{display:none;font-size:3.5rem;margin-bottom:2rem;text-align:center;}
