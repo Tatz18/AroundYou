@@ -41,7 +41,7 @@ img{height:auto;max-width:100%;}
 .grid:after,.grid .gridRow:after{clear:both;}
 .grid .gridRow{margin:0 -10px;}
 .grid .gridColumn{display:block;float:left;padding:0 10px;}
-select#selectUtility{appearance:none;background:#eee url(../images/select-arrow.png) 98% center no-repeat;border:none;border-radius:5px;box-shadow:0 2px 0 #ccc,0 -1px #fff inset;color:#666;cursor:pointer;display:block;font-size:3rem;height:54px;outline:none;-webkit-appearance:none;width:52%;margin:0 auto 30px;padding:5px;}
+select#selectUtility{appearance:none;background:#eee url(https://cloud.githubusercontent.com/assets/8266671/5778966/0f365c9c-9dc5-11e4-8ada-dd1cf249d75e.png) 98% center no-repeat;border:none;border-radius:5px;box-shadow:0 2px 0 #ccc,0 -1px #fff inset;color:#666;cursor:pointer;display:block;font-size:3rem;height:54px;outline:none;-webkit-appearance:none;width:52%;margin:0 auto 30px;padding:5px;}
 .rating{width:145px;height:16px;list-style:none;clear:both;position:relative;background:url(https://cloud.githubusercontent.com/assets/8266671/5779156/758e2910-9dc6-11e4-88bd-54cf283933cd.gif) no-repeat 0 0;margin:0 0 10px 20px;padding:0;}
 .rating span{font-size:1.5rem;display:block;margin:20px 0 0 -25px;}
 .star0{background-position:0 0;}
