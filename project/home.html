@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="no-js">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Around you</title>
+      <meta name="description" content="google maps search" />
+      <meta name="viewport" content="width=device-width">
+      <link rel="stylesheet" href="css/screen.css">
+      <script src="js/modernizr.custom.js"></script>
+   </head>
+   <body>
+      <div class="loading">Hold tightly
+      </div>
+      <section class="grid selectGrid main">
+         <div class="gridRow">
+            <div class="gridColumn mobileColumn HighResHalf HighResFull">
+               <form class="locator" action="#">
+                  <select id="selectUtility">
+                     <option value="restaurants" selected>Restaurants</option>
+                     <option value="coffee">Coffee</option>
+                     <option value="hotels">Hotels</option>
+                     <option value="pubs">Bars and Pubs</option>
+                     <option value="movies">Movies</option>
+                     <option value="hospitals">Hospitals</option>
+                     <option value="pet care">Pet care</option>
+                  </select>
+                  <div class="locationInfo">Unable to locate you.try again</div>
+                  <input class="inputLocation" placeholder="Where are you ?" type="text" id="gLocation">
+                  <input type="submit" class="submitBtn" value="let's go">
+               </form>
+            </div>
+         </div>
+         <div class="gridRow ">
+            <div class="gridColumn mobileColumn HighResHalf HighResFull">
+               <div class="recommendation">
+                  <div class="uDestination"></div>
+                  <div class="map">
+                     <div class="mapAddress"></div>
+                     <div class="mapCanvas" id="googlemap"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="gridRow btmRow">
+            <div class="gridColumn mobileColumn HighResCol HighRes"> <a href="#" class="repeatCount">Try Some other place</a> 
+            </div>
+         </div>
+      </section>
+      <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places,geometry" type="text/javascript"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>
