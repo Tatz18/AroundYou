@@ -323,7 +323,6 @@ select#selectUtility::-ms-expand
 {
     display: none;
 }
-
 @media only screen and (max-width: 28em) { 
     select#selectUtility {
         background: #eee url(https://cloud.githubusercontent.com/assets/8266671/5778966/0f365c9c-9dc5-11e4-8ada-dd1cf249d75e.png) 98% center no-repeat;
