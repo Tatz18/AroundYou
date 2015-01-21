@@ -300,7 +300,6 @@ img {
     .grid .gridColumn.HighResFull { width: 100% }
 }
 select#selectUtility {
-    appearance: none;
     background: #eee url(https://cloud.githubusercontent.com/assets/8266671/5778966/0f365c9c-9dc5-11e4-8ada-dd1cf249d75e.png) 98% center no-repeat;
     border: none;
     border-radius: 5px;
@@ -316,6 +315,7 @@ select#selectUtility {
     -webkit-appearance: none;
     -moz-appearance: none;
     -ms-appearance: none;
+    appearance: none;
     font-family: inherit;
     width: 52%;
 }
