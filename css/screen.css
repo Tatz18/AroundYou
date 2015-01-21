@@ -314,6 +314,8 @@ select#selectUtility {
     outline: none;
     padding: 5px;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
     font-family: inherit;
     width: 52%;
 }
