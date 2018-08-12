@@ -59,7 +59,7 @@ function showPlace(a, b) {
          animation: google.maps.Animation.BOUNCE,
          position: a.geometry.location,
          icon: destIcon
-      }), markersArray.push(destMarker), placeName = a.name, routemap(userLoc, a.geometry.location), directionsDisplay.setMap(null), directionsDisplay.suppressMarkers = !0, directionsDisplay.setMap(map), placeSite = a.website ? a.website : a.url, placeAddress = a.formatted_address, $(".uDestination").html("You can try <br/><a href='" + placeSite + "' target='_blank'>" + placeName + '</a><a href ="' + a.url + '" class="rating star' + Math.ceil(a.rating) + '"><span class="">based on ' + a.user_ratings_total + ' ratings</span></a><br/>Call Them at <a href="tel:' + a.international_phone_number + '"> ' + a.international_phone_number + " </a>"), $(".mapAddress").html(placeAddress), $(".btmRow,.recommendation,.mapAddress,.uDestination").fadeIn(function() {
+      }), markersArray.push(destMarker), placeName = a.name, routemap(userLoc, a.geometry.location), directionsDisplay.setMap(null), directionsDisplay.suppressMarkers = !0, directionsDisplay.setMap(map), placeSite = a.website ? a.website : a.url, placeAddress = a.formatted_address, $(".uDestination").html("You can try <br/><a href='" + placeSite + "' target='_blank'>" + placeName + '</a><a href ="' + a.url + '" class="rating star' + Math.ceil(a.rating) + '"><span class="">based on ' + a.rating + ' ratings</span></a><br/>Call Them at <a href="tel:' + a.international_phone_number + '"> ' + a.international_phone_number + " </a>"), $(".mapAddress").html(placeAddress), $(".btmRow,.recommendation,.mapAddress,.uDestination").fadeIn(function() {
          fnWaiting.fadeOut()
       })
    }
